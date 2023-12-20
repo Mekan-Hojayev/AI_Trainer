@@ -1,4 +1,5 @@
-**The AI Fitness Trainer**
+\ttext{The AI Fitness Trainer}
+
 The AI Fitness Trainer aims to provide a virtual fitness training experience by tracking and analyzing exercises using Computer Vision (CV). The expected value of integrating CV into fitness training is multifold:
 
 Accuracy Improvement: By leveraging CV, we can significantly enhance the accuracy of exercise tracking, ensuring users perform exercises with correct posture and full range of motion for optimal benefits.
