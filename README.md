@@ -18,6 +18,7 @@ We build upon the provided Python code that uses OpenCV for real-time pose track
 Pose Estimation with MediaPipe: Using the MediaPipe framework, we can detect human pose landmarks in real-time. It gives us 33 landmarks for a full body that will help us in calculating angles and positions of the body parts.
 
 **What is MediaPipe Pose?**
+
 MediaPipe Pose is a single-person pose estimation framework. It uses BlazePose 33 landmark topology. BlazePose is a superset of COCO keypoints, Blaze Palm, and Blaze Face topology. It works in two stages – detection and tracking. As detection is not performed in each frame, MediaPipe is able to perform inference faster. There are three models in MediaPipe for pose estimation.
 
 - BlazePose GHUM Heavy
@@ -26,6 +27,9 @@ MediaPipe Pose is a single-person pose estimation framework. It uses BlazePose 3
 These models are flagged as complexity 0, 1, and 2 respectively.
 
 MediaPipe pose solution is also integrated with segmentation which can be switched just by passing a flag. Check out this article on MediaPipe Pose for more insight.
+
+![](MediaPipe-pose-BlazePose-Topology.jpg)
+
 
 Angle Calculation for Exercise Form: We will calculate the angles between joints to identify the correct posture in exercises like pushups and squats. For instance, for a pushup, we would monitor the angles at the elbow and shoulder joints.
 
